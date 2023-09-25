@@ -1,5 +1,10 @@
 # OPS
 
-<img width="960" alt="image" src="https://github.com/liinahoogand/OPS/assets/116062583/ed33df9f-bb89-4f92-a755-b08788c1e6aa">
-<img width="960" alt="image" src="https://github.com/liinahoogand/OPS/assets/116062583/80cbbbc1-f61e-4c5e-a40f-a5fe27788523">
-![image](https://github.com/liinahoogand/OPS/assets/116062583/237ce32d-b367-45b8-8aa7-ecf0c96108ca)
+
+
+<img width="960" alt="image" src="https://github.com/liinahoogand/OPS/assets/116062583/c11da764-9099-4695-8439-eee4c1e8a51f">
+
+<img width="960" alt="image" src="https://github.com/liinahoogand/OPS/assets/116062583/88c5e27d-7609-4d29-8058-6f6793166c25">
+
+
+![image](https://github.com/liinahoogand/OPS/assets/116062583/e6dddb8e-6f41-47aa-8f34-d0fb4aad4bb9)
