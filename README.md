@@ -2,7 +2,8 @@
 
 
 
-<img width="960" alt="image" src="https://github.com/liinahoogand/OPS/assets/116062583/c11da764-9099-4695-8439-eee4c1e8a51f">
+<img width="960" alt="image" src="https://github.com/liinahoogand/OPS/assets/116062583/e1daf805-cca4-4c3d-be1a-d7b04e0416e6">
+
 
 <img width="960" alt="image" src="https://github.com/liinahoogand/OPS/assets/116062583/88c5e27d-7609-4d29-8058-6f6793166c25">
 
