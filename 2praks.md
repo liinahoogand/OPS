@@ -1,4 +1,4 @@
-# 1. praktikumi aruanne 
+# 2. praktikumi aruanne 
 
 Siin on minu operastioonisüsteemide kursuse teise praktikumi esitus. Aega kulus umb 6h ja enda arust läks sujuvalt.
 Antud praktikumi raames õppisin tundma Linuxi käsurida ning paljusid käske, mida seal teha saab. Lisaks lahendasin vajalikud ülesanded. Kogemata tulid mõlema monitori pildid, loodan, et pole viga :)
