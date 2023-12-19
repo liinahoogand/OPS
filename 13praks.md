@@ -6,7 +6,7 @@ Antud praktikum osutus veidi ajakulukamaks kui algselt ootasin, aga sellegipoole
 Selle praktikumi raames õppisin Windowsi PowerShelli käske ja võimalusi, praktikumi raames katsetasin uut õpitud ning vastasin ka küsimustele. \t
 
 
-Siin on script:\t
+Siin on script: <br />
 
 
 #siin on ette antud funktsioon
