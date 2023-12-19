@@ -1,6 +1,6 @@
 # 13. praktikumi aruanne 
 
-Siin on minu operastioonisüsteemide kursuse kolmeteistkümnenda praktikumi esitus. Aega kulus umb 4-5h ja enda arust sain kõik peaks olema tehtud.
+Siin on minu operastioonisüsteemide kursuse kolmeteistkümnenda praktikumi esitus. Aega kulus umb 4-5h ja enda arust sain kõik ilusti tehtud.
 Tekkis palju küsimusi vahepeal selle kohta, et mida täpselt küsiti või, millist vastust oodatakse(nt kui palju infot peaks sisaldama protsessori kirjeldus), aga sain vist kõigele ka õigesti vastatud. 
 Antud praktikum osutus veidi ajakulukamaks kui algselt ootasin, aga sellegipoolest oli huvitav ja mõnus nokitsemine.
 Selle praktikumi raames õppisin Windowsi PowerShelli käske ja võimalusi, praktikumi raames katsetasin uut õpitud ning vastasin ka küsimustele.  <br />
