@@ -25,7 +25,7 @@ Selle praktikumi raames õppisin, kuidas luua virtuaalmasinat pilvetehnoloogiaga
 
 Ülesanne 6.
 
-Selleks, et ülesanne lahendada ma pidin alguses liikuma Linuxi käsurealt cirtaalmasina Windowsisse kasutades cd /mnt/c/ ning sinna lõppu lisades siis tee antud kausta. Kasutasin käsku ls et uurida, mis failid seal üldse on ja lõpuks otsisin kõikidest failidest parooli kasutades grep -r parool, kust sain siis failide nimekirja kus seda sõna on kasutatud.
+Selleks, et ülesanne lahendada ma pidin alguses liikuma Linuxi käsurealt virtuaalmasina Windowsisse kasutades cd /mnt/c/ ning sinna lõppu lisades siis tee antud kausta. Kasutasin käsku ls et uurida, mis failid seal üldse on ja lõpuks otsisin kõikidest failidest parooli kasutades grep -r 'parool', kust sain siis failide nimekirja kus seda sõna on kasutatud.
 
 <img width="960" alt="Kuvatõmmis 2024-01-05 221109" src="https://github.com/liinahoogand/OPS/assets/116062583/50a34941-2a08-4570-89dc-63eefa510d47">
 <img width="960" alt="Kuvatõmmis 2024-01-05 221118" src="https://github.com/liinahoogand/OPS/assets/116062583/a3f7b70f-3a8f-49cf-b505-2bcfc3f8eced">
