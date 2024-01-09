@@ -27,3 +27,36 @@ Miks on igal kasutajal omanimeline grupp?
 Millised on minimaalsed õigused (rwx), mis on vajalikud teie tavakasutajal (kuulub gruppi majasisene) (mitte root- või peeter-kasutajal, kausta ja faili omanikud) faili uusfail.txt sisu kuvamiseks? 
 
  Minimaalsed õigused, mis on vajalikud tavakasutajal faili sisu kuvamiseks, on lugemisõigused (read)
+ 
+<img width="865" alt="Kuvatõmmis 2024-01-09 001258" src="https://github.com/liinahoogand/OPS/assets/116062583/5d541330-964b-41d6-bd06-725964436e15">
+
+Ülesanne 5-5:
+
+Milleks on vaja setuid-õigust? Setuid (set user ID) võimaldab käivitada programmil selle omaniku õigustes, mitte käivitaja õigustes. Setuid-bit on seotud failiga ja mitte käivitatava protsessiga, ja see võimaldab kasutajal käivitada programm, omandades faili omaniku õigused ajutiselt, kui programm töötab.
+
+<img width="675" alt="Kuvatõmmis 2024-01-09 014301" src="https://github.com/liinahoogand/OPS/assets/116062583/abe69179-84b8-47e9-8389-1aad6493814b">
+
+Ülesanne 5-6:
+
+Kas setuid-i kasutamine võib vähendada süsteemi turvalisust? Kui jah, siis kuidas?
+ Jah, see võib potentsiaalselt vähendada süsteemi turvalisust. Setuid-õigusega failid käivitatakse nende omaniku õigustes, mis võivad olla oluliselt suuremad kui käivitaja õigused see võib avada tee tehnika rünnakutele või kasutaja õiguste kuritarvitamisele. 
+
+
+Ülesanne 5-7:
+
+ Kirjutage oma esitusele kõik kasutajad, kes saavad sticky bit-õigustega yhiskaust-kataloogist nüüd peeter-kasutaja loodud faile kustutada. (Õige vastus sisaldab vähemalt 3 eri kasutajat).
+  Praeguses seadistuses saavad kustutada "peeter", "opetaja" ja süsteemi administraator (root).
+
+Ülesanne 5-8:
+  
+<img width="502" alt="Kuvatõmmis 2024-01-09 021639" src="https://github.com/liinahoogand/OPS/assets/116062583/7f51f6f2-db3d-42cb-95ff-59c155b3bb01">
+
+Ülesanne 5-9:
+
+ Kes saab chattr +i-parameetriga faili sisu modifitseerida (kirjutada)? Milliste käskudega saate kustutada testfail-2-nimelise faili (ehk kuidas siiski kustutada +i-parameetriga faili)?
+
+Chattr +i-parameetriga faili saavad kirjutada ja kustutada root-kasutaja ja kasutaja, kellel on sudo õigused.
+
+Kustutamiseks :
+sudo chattr -i testfail-2 && sudo rm testfail-2
+
