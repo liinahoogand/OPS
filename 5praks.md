@@ -55,8 +55,7 @@ Kas setuid-i kasutamine võib vähendada süsteemi turvalisust? Kui jah, siis ku
 
  Kes saab chattr +i-parameetriga faili sisu modifitseerida (kirjutada)? Milliste käskudega saate kustutada testfail-2-nimelise faili (ehk kuidas siiski kustutada +i-parameetriga faili)?
 
-Chattr +i-parameetriga faili saavad kirjutada ja kustutada root-kasutaja ja kasutaja, kellel on sudo õigused.
-
+Mitte keegi ei saa seda muuta, isegi mitte superuser
 Kustutamiseks :
 sudo chattr -i testfail-2 && sudo rm testfail-2
 
