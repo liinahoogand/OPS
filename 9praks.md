@@ -1,7 +1,7 @@
 # 9. praktikumi aruanne 
 
-Siin on minu operastioonisüsteemide kursuse üheksanda praktikumi esitus. Aega kulus umb ........h . Vahest tuli veidi nuputada ning viimase ülesande ma sooritasin enda arust loogiliselt ja õigesti, aga võibolla oodati mingit muud lahendust.
-Selle praktikumi raames õppisin, kuidas luua virtuaalmasinat pilvetehnoloogiaga kasutades Azuret ning sain meelde tuletada Windowsi kui Linuxi cmd käske.  <br />
+Siin on minu operastioonisüsteemide kursuse üheksanda praktikumi esitus. Aega kulus umb 6h . See praktikum nõudis mõnda pusimist alguses.
+Selle praktikumi raames õppisin, ressursihalduse kohta Windowsis ja Linuxis.  <br />
 
 | Küsimus                    | Linux        | Windows      | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist |
 |-----------------------------|--------------|--------------|---------------------------|-----------------------------|
@@ -16,7 +16,7 @@ Selle praktikumi raames õppisin, kuidas luua virtuaalmasinat pilvetehnoloogiaga
 | [9]                         | 290Mi  | 1220MB  | free -h | resource monitor -> physical memory(available) |
 | [10]                        | 7,7GB e. 62% | 35,4GB e. 55,8% | df -h/ | WinDirStat -> c: -> atribuudid |
 | [11]                        | kaust: /usr ja fail: ./.config/Qlipper/qlipper.ini | kaust: windows ja fail: pagefile.sys| fail:find -type f exec du -Sh {} + \| sort -rh  \| head -n 1,kaust:sudo du -ah /* \| sort -rh\| head -n1 | WinDirStat -> c: -> suurus, kaust on ka seal samas |
-| [12]                        |Esimese käsu puhul(zero) kulub enamik cpu ajast tegevusele us( 96,1%) ja ka sy ( 2,6%) ning teise käasu puhul (urandom) puhul jaotub cpu aeg võrdemaslt ära kui ennem, nüüd us 57,9% ja sy 42,1%                    |    | -| juhendis kirjas | - |
+| [12]                        |Esimese käsu puhul(zero) kulub enamik cpu ajast tegevusele us( 96,1%) ja ka sy ( 2,6%) ning teise käasu puhul (urandom) puhul jaotub cpu aeg võrdemaslt ära kui ennem, nüüd us 57,9% ja sy 42,1%                    |  -  | juhendis kirjas | - |
 | [13]                        | - | 1. system, 2.C:\\$LogFile(NTFS Volume Log), 3. System, 4:C:\pagefile.sys | - | resource monitor -> disk -> disk activity -> read(mõlemad)/write(mõlemad) |
 | [14]                        | - | protsess: svc.exe(NetworkServise-p), kohalikud: ip 10.0.2.15 ja port 51704, teise poole ip  20.199.120.182 ja port 443, latents 0m/s ja võrguliikluse kogumsht on 28B/sec| - | resource monitor -> network |
 
