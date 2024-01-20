@@ -5,15 +5,15 @@ Selle praktikumi raames õppisin, kuidas luua virtuaalmasinat pilvetehnoloogiaga
 
 | Küsimus                    | Linux        | Windows      | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist |
 |-----------------------------|--------------|--------------|---------------------------|-----------------------------|
-| [1]                         | [Linux 1]    | 154  | ps -A \| wc -l | tegumihaldur (task manager) -> jõudlus -> protsessid |
-| [2]                         | [Linux 2]    | frontdrvhost.exe | ps -aux --sort -pid \|tail -1      | process explorer -> time |
-| [3]                         | [Linux 3]    | esineb vaid kasutaja millega sisse logisin | ps -ef \|cut -d'' -f1\|sort \| uniq       | teumihaldur -> users |
+| [1]                         | 209 | 154  | ps -A \| wc -l | tegumihaldur (task manager) -> jõudlus -> protsessid |
+| [2]                         | /sbin/init splash    | frontdrvhost.exe | ps -aux --sort -pid \|tail -1      | process explorer -> time |
+| [3]                         | avahi, colord, kernoops, liina, message+, root, rtkit, syslog, systemd+ja UID | esineb vaid kasutaja millega sisse logisin | ps -ef \|cut -d'' -f1\|sort \| uniq       | teumihaldur -> users |
 | [4]                         | [Linux 4]    | 0:00:57:25  | uprime -p       | tegumihaldur -> jõudlus -> CPU -> tööaeg |
-| [5]                         | [Linux 5]    | - | ps -ef --sort -start \| head -4       | windowsil puudub selline "tegevus" |
-| [6]                         | [Linux 6]    | windows feature experience pack | htop -> f6 sort by -> percent_cpu       | [tegumihaldur -> rakenduste ajalugu -> protsessoriaeg |
-| [7]                         | [Linux 7]  |  MsMpEng.exe  | htop -> f6 sort by -> VIRT    | resource monitor -> commit(CPU1 suurim)|
-| [8]                         | [Linux 8]    | [Windows 8]  | HTOP -> F6 SORT BY -> PERCENT_MEM | resource monitor -> working set |
-| [9]                         | [Linux 9]    | 1220MB  | free -h | resource monitor -> physical memory(available) |
+| [5]                         | kworker/0:0-events   | - | ps -ef --sort -start \| head -4       | windowsil puudub selline "tegevus" |
+| [6]                         | /usr/bin/gnome-shell  | windows feature experience pack | htop -> f6 sort by -> percent_cpu       | [tegumihaldur -> rakenduste ajalugu -> protsessoriaeg |
+| [7]                         | /usr/bin/gnome-shell  |  MsMpEng.exe  | htop -> f6 sort by -> VIRT    | resource monitor -> commit(CPU1 suurim)|
+| [8]                         | /usr/bin/gnome-shell    | firefox.exe  | HTOP -> F6 SORT BY -> PERCENT_MEM | resource monitor -> working set |
+| [9]                         | 290Mi  | 1220MB  | free -h | resource monitor -> physical memory(available) |
 | [10]                        | [Linux 10]   | 35,4GB e. 55,8% | df -h/ | WinDirStat -> c: -> atribuudid |
 | [11]                        | [Linux 11]   | kaust: windows ja fail: pagefile.sys| fail:find -type f exec du -Sh {} + \| sort -rh  \| head -n 1,kaust:sudo du -ah /* \| sort -rh\| head -n1 | WinDirStat -> c: -> suurus, kaust on ka seal samas |
 | [12]                        | [Linux 12]   | -| - | - |
