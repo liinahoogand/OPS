@@ -7,7 +7,7 @@ Selle praktikumi raames õppisin, ressursihalduse kohta Windowsis ja Linuxis.  <
 |-----------------------------|--------------|--------------|---------------------------|-----------------------------|
 | [1]                         | 209 | 154  | ps -A \| wc -l | tegumihaldur (task manager) -> jõudlus -> protsessid |
 | [2]                         | /sbin/init splash    | frontdrvhost.exe | ps -aux --sort -pid \|tail -1      | process explorer -> time |
-| [3]                         | avahi, colord, kernoops, liina, message+, root, rtkit, syslog, systemd+ja UID | esineb vaid kasutaja millega sisse logisin | ps -ef \|cut -d'' -f1\|sort \| uniq       | teumihaldur -> users |
+| [3]                         | avahi, colord, kernoops, liina, message+, root, rtkit, syslog, systemd+ja UID | esineb vaid kasutaja millega sisse logisin | ps -ef \|cut -d'' -f1\|sort \| uniq       | tegumihaldur -> users |
 | [4]                         | up 56 minutes | 0:00:57:25  | uprime -p       | tegumihaldur -> jõudlus -> CPU -> tööaeg |
 | [5]                         | kworker/0:0-events   | - | ps -ef --sort -start \| head -4       | windowsil puudub selline "tegevus" |
 | [6]                         | /usr/bin/gnome-shell  | windows feature experience pack | htop -> f6 sort by -> percent_cpu       | [tegumihaldur -> rakenduste ajalugu -> protsessoriaeg |
@@ -20,6 +20,10 @@ Selle praktikumi raames õppisin, ressursihalduse kohta Windowsis ja Linuxis.  <
 | [13]                        | - | 1. system, 2.C:\\$LogFile(NTFS Volume Log), 3. System, 4:C:\pagefile.sys | - | resource monitor -> disk -> disk activity -> read(mõlemad)/write(mõlemad) |
 | [14]                        | - | protsess: svc.exe(NetworkServise-p), kohalikud: ip 10.0.2.15 ja port 51704, teise poole ip  20.199.120.182 ja port 443, latents 0m/s ja võrguliikluse kogumsht on 28B/sec| - | resource monitor -> network |
 
+Ülesanne 15(Windows)
+Kui sõbra arvuti oleks oluliselt aeglasemaks jäänud siis ma uuriks:<br />
+1. Tegumihalduris protsessori vahelehte, kus ma näeks, millised protsessid kasutavad kõige rohkem ressursse. Jõudluse alt saan ülevaate CPU ja mälu kasutusest. Automaatsete käivituste alt näen, millised programmid käivituvad koos Windowsiga.
+2. Resource Monitor-i, kuna seal saan täpse ülevaate süsteemi ressursside kasutamisest, nagu nt protsesside, mälukasutuse, kettamahu ja võrguliikluse kohta.
 
 Ül 12 ekraanipildid
 
