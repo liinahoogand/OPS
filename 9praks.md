@@ -5,13 +5,13 @@ Selle praktikumi raames õppisin, kuidas luua virtuaalmasinat pilvetehnoloogiaga
 
 | Küsimus                    | Linux        | Windows      | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist |
 |-----------------------------|--------------|--------------|---------------------------|-----------------------------|
-| [1]                         | [Linux 1]    | 154  | [Linux käsklus 1]        | tegumihaldur (task manager) -> jõudlus -> protsessid |
-| [2]                         | [Linux 2]    | frontdrvhost.exe | [Linux käsklus 2]        | process explorer -> time |
-| [3]                         | [Linux 3]    | esineb vaid kasutaja millega sisse logisin | [Linux käsklus 3]        | teumihaldur -> users |
-| [4]                         | [Linux 4]    | 0:00:57:25  | [Linux käsklus 4]        | tegumihaldur -> jõudlus -> CPU -> tööaeg |
-| [5]                         | [Linux 5]    | - | [Linux käsklus 5]        | windowsil puudub selline "tegevus" |
-| [6]                         | [Linux 6]    | windows feature experience pack | [Linux käsklus 6]        | [tegumihaldur -> rakenduste ajalugu -> protsessoriaeg |
-| [7]                         | [Linux 7]    MsMpEng.exe  | [Linux käsklus 7]        | resource monitor -> commit(CPU1 suurim)|
+| [1]                         | [Linux 1]    | 154  | ps -A \| wc -l | tegumihaldur (task manager) -> jõudlus -> protsessid |
+| [2]                         | [Linux 2]    | frontdrvhost.exe | ps -aux --sort -pid \|tail -1      | process explorer -> time |
+| [3]                         | [Linux 3]    | esineb vaid kasutaja millega sisse logisin | ps -ef \|cut -d'' -f1\|sort \| uniq       | teumihaldur -> users |
+| [4]                         | [Linux 4]    | 0:00:57:25  | uprime -p       | tegumihaldur -> jõudlus -> CPU -> tööaeg |
+| [5]                         | [Linux 5]    | - | ps -ef --sort -start \| head -4       | windowsil puudub selline "tegevus" |
+| [6]                         | [Linux 6]    | windows feature experience pack | htop -> f6 sort by -> percent_cpu       | [tegumihaldur -> rakenduste ajalugu -> protsessoriaeg |
+| [7]                         | [Linux 7]    MsMpEng.exe  | htop -> f6 sort by -> VIRT    | resource monitor -> commit(CPU1 suurim)|
 | [8]                         | [Linux 8]    | [Windows 8]  | [Linux käsklus 8]        | resource monitor -> working set |
 | [9]                         | [Linux 9]    | 1220MB  | [Linux käsklus 9]        | resource monitor -> physical memory(available) |
 | [10]                        | [Linux 10]   | 35,4GB e. 55,8% | [Linux käsklus 10]       | WinDirStat -> c: -> atribuudid |
