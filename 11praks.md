@@ -33,6 +33,14 @@ IP aadress on sama nii konsoolis kui ka ip.ut.ee lehel.
 
 <img width="547" alt="Kuvatõmmis 2024-01-20 095956" src="https://github.com/liinahoogand/OPS/assets/116062583/8d1481b1-ba9a-48ad-97cf-b43049664894">
 
-2. Vastuseks sai 404 Not Found. See tähendab seda, et server ei leidnud antud URL-i. 
+2. Vastuseks sai 404 Not Found. See tähendab seda, et server ei leidnud antud URL-i. Lisaks on näha nt et serveri nimi on "Google Frontend". Lõpuks soovitab kood kontrollida õigekirja ja proovida uuesti.
 
 <img width="550" alt="Kuvatõmmis 2024-01-20 100332" src="https://github.com/liinahoogand/OPS/assets/116062583/dca64eb3-921c-4526-ac9a-86e434c6d46c">
+
+
+Ülesanne 4:
+
+Saatsin omale meili, kõike peaks olema näha, minu nimi on ka alumise osa esimesel real.
+
+<img width="960" alt="Kuvatõmmis 2024-01-20 110916" src="https://github.com/liinahoogand/OPS/assets/116062583/74e5102a-442f-4918-b921-567f07dd8cf1">
+
