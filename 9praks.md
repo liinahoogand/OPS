@@ -5,20 +5,20 @@ Selle praktikumi raames õppisin, kuidas luua virtuaalmasinat pilvetehnoloogiaga
 
 | Küsimus                    | Linux        | Windows      | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist |
 |-----------------------------|--------------|--------------|---------------------------|-----------------------------|
-| [1]                         | [Linux 1]    | [Windows 1]  | [Linux käsklus 1]        | tegumihaldur (task manager) -> jõudlus -> protsessid |
-| [2]                         | [Linux 2]    | [Windows 2]  | [Linux käsklus 2]        | process explorer -> time |
-| [3]                         | [Linux 3]    | [Windows 3]  | [Linux käsklus 3]        | teumihaldur -> users |
-| [4]                         | [Linux 4]    | [Windows 4]  | [Linux käsklus 4]        | tegumihaldur -> jõudlus -> CPU -> tööaeg |
-| [5]                         | [Linux 5]    | [Windows 5]  | [Linux käsklus 5]        | windowsil puudub selline "tegevus" |
-| [6]                         | [Linux 6]    | [Windows 6]  | [Linux käsklus 6]        | [tegumihaldur -> rakenduste ajalugu -> protsessoriaeg |
-| [7]                         | [Linux 7]    | [Windows 7]  | [Linux käsklus 7]        | resource monitor -> commit |
+| [1]                         | [Linux 1]    | 154  | [Linux käsklus 1]        | tegumihaldur (task manager) -> jõudlus -> protsessid |
+| [2]                         | [Linux 2]    | frontdrvhost.exe | [Linux käsklus 2]        | process explorer -> time |
+| [3]                         | [Linux 3]    | esineb vaid kasutaja millega sisse logisin | [Linux käsklus 3]        | teumihaldur -> users |
+| [4]                         | [Linux 4]    | 0:00:57:25  | [Linux käsklus 4]        | tegumihaldur -> jõudlus -> CPU -> tööaeg |
+| [5]                         | [Linux 5]    | - | [Linux käsklus 5]        | windowsil puudub selline "tegevus" |
+| [6]                         | [Linux 6]    | windows feature experience pack | [Linux käsklus 6]        | [tegumihaldur -> rakenduste ajalugu -> protsessoriaeg |
+| [7]                         | [Linux 7]    MsMpEng.exe  | [Linux käsklus 7]        | resource monitor -> commit(CPU1 suurim)|
 | [8]                         | [Linux 8]    | [Windows 8]  | [Linux käsklus 8]        | resource monitor -> working set |
-| [9]                         | [Linux 9]    | [Windows 9]  | [Linux käsklus 9]        | resource monitor -> physical memory |
-| [10]                        | [Linux 10]   | [Windows 10] | [Linux käsklus 10]       | WinDirStat -> c: -> atribuudid |
-| [11]                        | [Linux 11]   | [Windows 11] | [Linux käsklus 11]       | WinDirStat -> c: -> suurus, kaust on ka seal samas |
-| [12]                        | [Linux 12]   | [Windows 12] | [Linux käsklus 12]       | - |
-| [13]                        | [Linux 13]   | [Windows 13] | [Linux käsklus 13]       | resource monitor -> disk -> disk activity -> read(mõlemad)/write(mõlemad) |
-| [14]                        | [Linux 14]   | [Windows 14] | [Linux käsklus 14]       | resource monitor -> network |
+| [9]                         | [Linux 9]    | 1220MB  | [Linux käsklus 9]        | resource monitor -> physical memory(available) |
+| [10]                        | [Linux 10]   | 35,4GB e. 55,8% | [Linux käsklus 10]       | WinDirStat -> c: -> atribuudid |
+| [11]                        | [Linux 11]   | kaust: windows ja fail: pagefile.sys| [Linux käsklus 11]       | WinDirStat -> c: -> suurus, kaust on ka seal samas |
+| [12]                        | [Linux 12]   | -| [Linux käsklus 12]       | - |
+| [13]                        | [Linux 13]   | 1. system, 2.C:\\$LogFile(NTFS Volume Log), 3. System, 4:C:\pagefile.sys | [Linux käsklus 13]       | resource monitor -> disk -> disk activity -> read(mõlemad)/write(mõlemad) |
+| [14]                        | [Linux 14]   | protsess: svc.exe(NetworkServise-p), kohalikud: ip 10.0.2.15 ja port 51704, teise poole ip  20.199.120.182 ja port 443, latents 0m/s ja võrguliikluse kogumsht on 28B/sec| [Linux käsklus 14]       | resource monitor -> network |
 
 
 
