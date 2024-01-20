@@ -7,21 +7,19 @@ Selle praktikumi raames õppisin Linuxis skriptimist.  <br />
 
 Sisu:
 
-#!/bin/bash
+        #!/bin/bash
+        
+        echo "Nimi:"
+        read nimi
+        
+        echo "Eriala:"
+        read eriala
+        
+        echo "Matriklinumber:"
+        read matriklinumber
+        
+        echo "Tere, $nimi! Sinu eriala on $eriala ja matriklinumber on $matriklinumber."
 
-echo "Nimi:"
-
-read nimi
-
-echo "Eriala:"
-
-read eriala
-
-echo "Matriklinumber:"
-
-read matriklinumber
-
-echo "Tere, $nimi! Sinu eriala on $eriala ja matriklinumber on $matriklinumber."
 
 Ekraanikuva:
 
